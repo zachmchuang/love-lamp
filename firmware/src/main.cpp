@@ -33,7 +33,7 @@ static const uint32_t ON_FAIL_DARK_MS = 400;
 
 static const char *TOPIC_EVENT = "lovelamp/event";
 static const char *TOPIC_ACK = "lovelamp/ack";
-static const char *PORTAL_SSID = "Z+S";
+static const char *PORTAL_SSID = "lamp-setup";
 
 static const CRGB CYCLE_COLORS[] = {
   CRGB(255, 255, 255),  // white
