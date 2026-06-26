@@ -23,13 +23,18 @@ A pair of touch-activated lamps that light up together over WiFi. Tap one lamp t
 | LED DI | IO17 (D3) |
 | GND | Shared |
 
-Build two lamps, one flashed as **A**, one as **B**.
-
 ## Firmware
+
+Add HiveMQ Cloud credentials in `firmware/src/secrets.h.example` and then rename to `firmware/src/secrets.h`.
+
+```bash
+mv firmware/src/secrets.h.example firmware/src/secrets.h
+```
+
+Flash the two lamps using different PlatformIO environments. 
 
 ```bash
 cd firmware
-cp src/secrets.h.example src/secrets.h   # add HiveMQ Cloud credentials
 pio run -e wemos_d1_mini32 -t upload     # Lamp A
 pio run -e wemos_d1_mini32_B -t upload   # Lamp B
 ```
