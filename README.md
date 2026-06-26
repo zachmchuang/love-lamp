@@ -25,7 +25,7 @@ A pair of touch-activated lamps that light up together over WiFi. Tap one lamp t
 
 ## Firmware
 
-Add HiveMQ Cloud credentials in `firmware/src/secrets.h.example` and then rename to `firmware/src/secrets.h`.
+Add HiveMQ Cloud credentials in `firmware/src/secrets.h.example` and then rename to `firmware/src/secrets.h`. I used HiveMQ free tier which worked great. 
 
 ```bash
 mv firmware/src/secrets.h.example firmware/src/secrets.h
@@ -39,7 +39,7 @@ pio run -e wemos_d1_mini32 -t upload     # Lamp A
 pio run -e wemos_d1_mini32_B -t upload   # Lamp B
 ```
 
-Lamps communicate over MQTT (`lovelamp/event` and `lovelamp/ack` topics). I used HiveMQ free tier which worked great. 
+Lamps communicate over MQTT (`lovelamp/event` and `lovelamp/ack` topics). 
 
 ## Gestures
 
