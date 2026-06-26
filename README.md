@@ -41,6 +41,6 @@ Lamps communicate over MQTT (`lovelamp/event` and `lovelamp/ack` topics). I used
 | Action | Result |
 |--------|--------|
 | Single tap | Cycle color and turn on (white → blue → pink → red → off) |
-| Triple tap | Enter WiFi setup portal (SSID: `lamp-setup`) |
+| Triple tap | Enter/exit WiFi setup portal (SSID: `lamp-setup`) |
 
 Lamps auto-off after 30 minutes.
