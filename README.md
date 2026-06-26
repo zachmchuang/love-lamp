@@ -1,6 +1,6 @@
 # Love Lamp
 
-A pair of touch-activated lamps that light up together over WiFi. Tap one lamp to light up both, no matter where they are in the world.
+A pair of touch-activated lamps that light up together over WiFi. Tap one lamp to light up both, no matter where they are.
 
 <p align="center">
   <img src="IMG_9857.jpg" alt="Love Lamp" width="35%">
