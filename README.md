@@ -2,7 +2,7 @@
 
 A pair of touch-activated lamps that light up together over WiFi. Tap one lamp to turn both on in a chosen color; tap again to turn them off.
 
-![Love Lamp](IMG_9857.jpg)
+<img src="IMG_9857.jpg" alt="Love Lamp" width="50%">
 
 ## Hardware
 
