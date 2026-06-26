@@ -20,7 +20,7 @@ A pair of touch-activated lamps that light up together over WiFi. Tap one lamp t
 | TTP223 VCC | 3.3V |
 | TTP223 SIG | IO23 (D7) |
 | LED VCC | 5V |
-| LED DIN | IO17 (D3) |
+| LED DI | IO17 (D3) |
 | GND | Shared |
 
 Build two lamps — one flashed as **A**, one as **B**.
