@@ -34,7 +34,7 @@ pio run -e wemos_d1_mini32 -t upload     # Lamp A
 pio run -e wemos_d1_mini32_B -t upload   # Lamp B
 ```
 
-Lamps communicate over MQTT (`lovelamp/event` and `lovelamp/ack` topics).
+Lamps communicate over MQTT (`lovelamp/event` and `lovelamp/ack` topics). I used HiveMQ free tier which worked great. 
 
 ## Gestures
 
