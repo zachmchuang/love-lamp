@@ -11,7 +11,7 @@ A pair of touch-activated lamps that light up together over WiFi. Tap one lamp t
 - WEMOS ESP32 D1 Mini
 - TTP223 capacitive touch sensor
 - WS2812B 12-LED ring
-- 3D-printed enclosure (STL files — see [References](#references))
+- 3D-printed enclosure (from [this project](https://www.instructables.com/Love-Lamp-1))
 
 **Wiring**
 
@@ -44,7 +44,3 @@ Lamps communicate over MQTT (`lovelamp/event` and `lovelamp/ack` topics).
 | Triple tap | Enter WiFi setup portal (SSID: `Z+S`) |
 
 Lamps auto-off after 30 minutes.
-
-## Print files
-
-STL models for the base, top, diffuser, and button are not included in this repo. See [this project](https://www.instructables.com/Love-Lamp-1) if you want the files.
