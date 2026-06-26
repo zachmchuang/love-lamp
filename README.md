@@ -1,6 +1,6 @@
 # Love Lamp
 
-A pair of touch-activated lamps that light up together over WiFi. Tap one lamp to turn both on in a chosen color; tap again to turn them off.
+A pair of touch-activated lamps that light up together over WiFi. Tap one lamp to light up both, no matter where they are in the world.
 
 <p align="center">
   <img src="IMG_9857.jpg" alt="Love Lamp" width="35%">
@@ -8,9 +8,9 @@ A pair of touch-activated lamps that light up together over WiFi. Tap one lamp t
 
 ## Hardware
 
-- WEMOS ESP32 D1 Mini
-- TTP223 capacitive touch sensor
-- WS2812B 12-LED ring
+- [WEMOS ESP32 D1 Mini](https://www.amazon.com/dp/B08ND91YB8?ref=ppx_yo2ov_dt_b_fed_asin_title)
+- [TTP223 capacitive touch sensor](https://www.amazon.com/dp/B00HFQEFWQ?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+- [WS2812B 12-LED ring](https://www.amazon.com/dp/B0CMPQMMJD?ref=ppx_yo2ov_dt_b_fed_asin_title)
 - 3D-printed enclosure (from [this project](https://www.instructables.com/Love-Lamp-1))
 
 **Wiring**
