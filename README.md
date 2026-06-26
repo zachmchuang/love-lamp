@@ -23,7 +23,7 @@ A pair of touch-activated lamps that light up together over WiFi. Tap one lamp t
 | LED DI | IO17 (D3) |
 | GND | Shared |
 
-Build two lamps — one flashed as **A**, one as **B**.
+Build two lamps, one flashed as **A**, one as **B**.
 
 ## Firmware
 
