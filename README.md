@@ -44,3 +44,7 @@ Lamps auto-off after 30 minutes.
 ## Print files
 
 STL models for the base, top, diffuser, and button are in `print/`. Two diffuser variants are included: `-S` and `-Z`.
+
+## References
+
+Inspiration and original stl files came from [this project](https://www.instructables.com/Love-Lamp-1). 
