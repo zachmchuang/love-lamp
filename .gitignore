@@ -1,0 +1,3 @@
+.cursor/
+firmware/.pio/
+firmware/src/secrets.h
